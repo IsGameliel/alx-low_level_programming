@@ -3,7 +3,7 @@
 /**
  * main - prints quote
  *
- * Returen zero when its successful
+ * Return: zero when its successful
  *
  */
 int main(void)
