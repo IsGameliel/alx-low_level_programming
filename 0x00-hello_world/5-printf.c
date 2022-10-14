@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
- * main prints quote
+ * main - this serves a the program's entery point
  *
- * Return  zero as success
- *
+ * returns zero by default
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n")
-	return (0)
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
