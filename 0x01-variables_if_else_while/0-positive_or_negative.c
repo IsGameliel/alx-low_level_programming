@@ -14,10 +14,10 @@
  * */
 int main(void)
 {
-	  /**
-	   * variable n has been declared
-	   * coding then assigns the random value.
-	   */
+	/**
+	* variable n has been declared
+	* coding then assigns the random value.
+	*/
 		int n;
 
 		srand(time(0));
@@ -34,8 +34,7 @@ int main(void)
 		else
 		{
 			printf("%d is negative\n", n);
-		}
-											
+		}										
 
 		return (0);
 }
