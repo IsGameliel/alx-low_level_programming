@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
  * main - Prints Holberton
@@ -8,9 +8,9 @@
  *
  * Return: 0 for success
 */
-int main()
+int main(void)
 {
-	printf("_putchar");
-    printf("\n");
+	_putchar('_putchar');
+	_putchar('\n');
 	return (0);
 }
