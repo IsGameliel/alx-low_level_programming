@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - Prints Holberton
- * @void: Empty parameter list for main.
+ * main - prints Putchar
  *
- * Description: Prints Holberton w/out stdio
+ * Description: prints _putchar
  *
- * Return: 0 for success
-*/
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
 	_putchar('_');
@@ -19,6 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-    
+
 	return (0);
 }
