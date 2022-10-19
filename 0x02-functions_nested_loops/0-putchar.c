@@ -1,17 +1,16 @@
-#include 'main.h'
-
+#include "main.h"
 
 /**
- * main - Prints Putchar
- * @void: Empty parameter list for main.
+ * main - prints Putchar
  *
- * Description: Prints Putchar without stdio
+ * Description: prints _putchar
  *
- * Return: 0 for success
-*/
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
-    _putchar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
