@@ -1,1 +1,1 @@
-This a a debugging session
+This is my debugging phase
