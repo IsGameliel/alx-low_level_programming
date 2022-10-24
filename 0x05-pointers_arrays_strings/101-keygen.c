@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -6,9 +5,9 @@
 #define SUM 2772
 
 /**
- * main - start function
+ * main - it all starts here
  *
- * Return: this will return 0
+ * Return: 0 always success
  */
 int main(void)
 {
@@ -32,6 +31,6 @@ int main(void)
 		n = 0;
 	}
 	str[i] = '\0';
-	_putchar("%s", str);
+	printf("%s", str);
 	return (0);
 }
