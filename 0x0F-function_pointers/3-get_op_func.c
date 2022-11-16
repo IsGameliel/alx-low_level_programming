@@ -1,29 +1,21 @@
-#include "function_pointers.h"
-
+#ifndef _HEADER_
+#define _HEADER_
 /**
- * get_op_func - selects and returns correct function
- * @s: string containing operand
- * Return: pointer to function, NULL if fails
- **/
-int (*get_op_func(char *s))(int, int)
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
+ */
+typedef struct op
 {
-	int i;
-	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL},
-	};
+	char *op;
+	int (*f)(int a, int b);
+} op_t;
 
-	while (i < 6)
-	{
-		if (s == ops[i].op)
-		{
-			return (*ops[i].f);
-		}
-		i++;
-	}
-	return (NULL)
-}
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
+int (*get_op_func(char *s))(int, int);
+#endif
